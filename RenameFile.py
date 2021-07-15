@@ -20,9 +20,9 @@ UPDATE_SETTINGS = {
 HELP_URL = 'https://github.com/realliyifei/Alfred-File-Renamer/issues'
 
 # Global Parameters
-connect_char = '-' # hyphen, you can also use underscore, space, etc. 
-stripped_chars = [':', ',', '-', '_', '=', '+', '{', '}', '[', ']', '(', ')', 
-                  '——', '：'] # the characheters to be stripped 
+connect_char = '-' # hyphen, you can insteadly use underscore, space, etc. 
+stripped_symbols = [':', ',', '-', '_', '+', '=', '?', '|', 
+                    '{', '}', '[', ']', '(', ')', '<', '>'] # the symbols to be stripped 
 
 def main(wf):
     """Run the workflow"""
@@ -39,20 +39,20 @@ def main(wf):
     try:
         filename = wf.args[0] 
         
-        subtitle = "New Filename"
-        renamed_filename = rename_filename(filename)
-        wf.add_item(title = renamed_filename, subtitle = subtitle, arg = 'renamed_filename', valid = True)
+        subtitle = "Press 'Enter' and copy to clipboard "
+        renamed_filename = rename(filename)
+        wf.add_item(title = renamed_filename, subtitle = subtitle, arg = renamed_filename, valid = True)
         
     except:
-        wf.add_item("Invalid input")
+        wf.add_item("Invalid input.")
     
     wf.send_feedback() 
 
-def rename_filename(filename):
+def rename(filename):
     """
     Replaces the spaces in the query string with the connect character and strips the unnecessary character(s) 
     """
-    for char in stripped_chars:
+    for char in stripped_symbols:
         filename = filename.replace(char, ' ')
     
     while True: 
