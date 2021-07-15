@@ -10,7 +10,7 @@ E.G. change `A guide: Comp Neuro` to  `a-guide-comp-neuro`.
 
 You can easily change the python snippet to other formats as you want.
 
-Initially, the hotkey is double-tapped SHIFT and the trigger keyword is `rn`. 
+Initially, the hotkey is double-tapped SHIFT (from clipboard) and the trigger keyword is `rn` (via pasting). 
 
 ## Limitations
 
