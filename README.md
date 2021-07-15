@@ -6,9 +6,9 @@
 
 This simple workflow lets you rename the input string (i.e. filename) following the small-case-with-hyphen format.  Also, it strips some unnesessary symbols like colon. You can change it to other formats as you want.
 
-e.g. change `A guide: Comp Neuro` to  `a-guide-comp-neuro`. 
+E.G. change `A guide: Comp Neuro` to  `a-guide-comp-neuro`. 
 
-Initially, the hotkey is double-tapped SHIFT and the trigger key is `rn`. 
+Initially, the hotkey is double-tapped SHIFT and the trigger keyword is `rn`. 
 
 ## Download
 
