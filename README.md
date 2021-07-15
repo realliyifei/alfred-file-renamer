@@ -18,7 +18,7 @@ The input string doesn't support non-ASCII code (i.e. Chinese, etc.).
 
 ## Download
 
-Download alfredworkflow file directly from [the releases page](https://github.com/realliyifeii/Alfred-File-Renamer/releases), make sure to download the latest release. 
+Download alfredworkflow file directly from [the releases page](https://github.com/realliyifei/Alfred-File-Renamer/releases), make sure to download the latest release. 
 
 ## Software: Alfred (Mac)
 
