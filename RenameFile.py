@@ -50,7 +50,7 @@ def main(wf):
 
 def rename(filename):
     """
-    Replaces the spaces in the query string with the connect character and strips the unnecessary character(s) 
+    Replaces the spaces in the query string with the connect character and strips the unnecessary symbol(s) 
     """
     for char in stripped_symbols:
         filename = filename.replace(char, ' ')
