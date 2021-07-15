@@ -8,7 +8,7 @@ This simple workflow lets you rename the input string (i.e. filename) following 
 
 E.G. change `A guide: Comp Neuro` to  `a-guide-comp-neuro`. 
 
-You can easily change the python snippet to other formats as you want.
+You can easily change the python snippet to use other title formats as you want.
 
 Initially, the hotkey is double-tapped SHIFT (from clipboard) and the trigger keyword is `rn` (via pasting). 
 
