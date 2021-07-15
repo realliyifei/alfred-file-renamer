@@ -4,9 +4,11 @@
 
 # File Renamer (Mac Alfred Workflow)
 
-This simple workflow lets you rename the input string (i.e. filename) following the small-case-with-hyphen format.  Also, it strips some unnesessary symbols like colon. You can change it to other formats as you want.
+This simple workflow lets you rename the input string (i.e. filename) following the small-case-with-hyphen format.  Also, it strips some unnesessary symbols like colon.
 
 E.G. change `A guide: Comp Neuro` to  `a-guide-comp-neuro`. 
+
+You can change the snippet to other formats as you want.
 
 Initially, the hotkey is double-tapped SHIFT and the trigger keyword is `rn`. 
 
