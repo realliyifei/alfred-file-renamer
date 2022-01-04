@@ -12,8 +12,8 @@ You can easily change the python snippet to use other title formats if needed.
 
 Two ways to use it:
 
-1. hotkey double-tapped SHIFT: rename the contents **in-place** where the cursor is
-2. trigger keyword is `rn`: rename the contents from clipboard by alfred box
+1. hotkey - double-tapped `⇧`: rename the contents **in-place** where the cursor is
+2. trigger keyword - `rn`: rename the contents from clipboard by alfred box
 
 ## Limitations
 
