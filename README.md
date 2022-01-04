@@ -17,7 +17,7 @@ Two ways to use it:
 
 ## Limitations
 
-The input string doesn't support punctuation marks from non-ASCII languages (i.e. Chinese). 
+The input string doesn't support punctuation marks from non-ASCII languages (e.g. Chinese). 
 
 ## Download
 
