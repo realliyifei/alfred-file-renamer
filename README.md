@@ -4,13 +4,16 @@
 
 # File Renamer (Mac Alfred Workflow)
 
-This simple workflow lets you rename the input string (i.e. filename) following the small-case-with-hyphen format.  Also, it strips some unnesessary symbols like colon.
+This simple workflow lets you rename the string (i.e. filename) following the small-case-with-hyphen format, either in-place or via alfred box.  Also, it strips some unnesessary symbols like colon.
 
-E.G. change `A guide: Comp Neuro` to  `a-guide-comp-neuro`. 
+E.G. change `A guide: Comp Neuro.pdf` to  `a-guide-comp-neuro.pdf`. 
 
-You can easily change the python snippet to use other title formats as you want.
+You can easily change the python snippet to use other title formats if needed.
 
-Initially, the hotkey is double-tapped SHIFT (from clipboard) and the trigger keyword is `rn` (via pasting). 
+Two ways to use it:
+
+1. hotkey double-tapped SHIFT: rename the contents **in-place** where the cursor is
+2. trigger keyword is `rn`: rename the contents from clipboard by alfred box
 
 ## Limitations
 
@@ -18,7 +21,7 @@ The input string doesn't support non-ASCII code (i.e. Chinese, etc.).
 
 ## Download
 
-Download alfredworkflow file directly from [the releases page](https://github.com/realliyifei/Alfred-File-Renamer/releases), make sure to download the latest release. 
+Download alfredworkflow file directly from [the releases page](https://github.com/realliyifei/alfred-file-renamer/releases), make sure to download the latest release. 
 
 ## Software: Alfred (Mac)
 
